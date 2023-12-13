@@ -1,0 +1,78 @@
+.headbar {
+  display: flex;
+  background-size: cover;
+  height: fit-content;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 10%;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+}
+
+.signin-window {
+  border: solid 2px #4faa92;
+  display: grid;
+  justify-content: center;
+  font-size: large;
+  position: relative;
+  top: 40%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #213049;
+  color: #e3f2ee;
+}
+
+.forgot,
+.link-up {
+  color: #b5afb3;
+}
+
+.mt-2 {
+  width: 200px;
+  height: 25px;
+  margin: 2px;
+}
+
+.input-field {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.padder {
+  margin: 3px;
+}
+
+.finish {
+    margin-top: 4px;
+    position: relative;
+    margin-left: 2px;
+}
+
+.aboutMe {
+  width: 90%;
+  height: 150px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 2px;
+}
+
+.text {
+    margin: 5px;
+
+}
+
+.imgSubmit {
+  margin-right:2px;
+}

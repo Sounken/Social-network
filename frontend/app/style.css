@@ -1,0 +1,672 @@
+.headbar {
+  display: flex;
+  background-size: cover;
+  height: 76px;
+  width: 100%;
+  background-color: #101010;
+  margin-bottom: 0.5vh;
+  position: relative;
+  align-content: left;
+}
+
+.fit {
+  width: fit-content;
+  height: fit-content;
+}
+
+.logout {
+  border: solid red 2px;
+  background-color: #101010;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+}
+
+.theSoundOfTaDaronne {
+  padding-top: 35%;
+}
+
+.identity {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  align-items: flex-end;
+  position: relative;
+}
+
+.chatButton {
+  display: flex;
+  width: 48%;
+  color: #ccc;
+  background-color: #101010;
+  justify-content: center;
+  float: left;
+  border: #181818 solid 2px;
+}
+
+.groupeButton {
+  display: flex;
+  width: 48%;
+  float: right;
+  color: #ccc;
+  background-color: #101010;
+  justify-content: center;
+  border: #181818 solid 2px;
+}
+
+.tinyavatar {
+  display: flex;
+  align-items: center;
+  min-width: 210px;
+  width: max-content;
+  height: 48px;
+  justify-content: left;
+  background-color: #101010;
+  border: #181818 solid 2px;
+}
+
+.notification {
+  display: flex;
+  float: right;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  left: 70%;
+  margin-top: 30px;
+}
+
+.notifT {
+  display: block;
+}
+
+.notifText {
+  position: absolute;
+  float: left;
+  width: max-content;
+  margin-left: 25px;
+  margin-top: -1.5px;
+}
+
+.name {
+  font-size: medium;
+  text-decoration: underline;
+  margin-bottom: 0px;
+  color: inherit;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+  margin: 0.1vh;
+}
+
+.logoProfile {
+  height: 75px;
+  width: 75px;
+  margin: 0.1vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.pfp {
+  height: 45px;
+  width: 45px;
+  border: #ccc solid 2px;
+  align-self: left;
+}
+
+.avatar_preview {
+  height: 10vh;
+  width: 10vh;
+  border: ridge #ccc 2px;
+  margin-top: 1vh;
+}
+
+.pick-me.profile {
+  width: fit-content;
+  height: fit-content;
+}
+
+.title {
+  height: max-content;
+  width: max-content;
+  margin: auto;
+}
+
+.signin-window {
+  border: solid 2px #181818;
+  display: grid;
+  justify-items: center;
+  font-size: large;
+  position: relative;
+  padding: 5px;
+  min-width: 400px;
+  width: 25%;
+  justify-self: center;
+  margin-bottom: 1vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #232323;
+  color: #C3C3C3;
+  margin: 0px;
+}
+
+.organ {
+  width: 100%;
+  height: 100%;
+  display: inline-grid;
+}
+
+.forgot,
+.link-up {
+  color: #ccc;
+  margin: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.gibspace {
+  display: grid;
+  justify-items: center;
+  margin: 0.5vh;
+}
+.mt-2 {
+  width: 20vh;
+  height: 2vh;
+  margin: 0.25vh;
+}
+
+.input-field {
+  width: 100%;
+  height: 100%;
+}
+
+.padder {
+  margin: 3px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.finish {
+  margin-top: 4px;
+  position: relative;
+  margin-left: 2px;
+}
+
+.aboutMe {
+  width: 90%;
+  min-height: 5vh;
+  height: auto;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 2px;
+  overflow: auto;
+  padding: 2px;
+}
+
+.text {
+  margin: 0.5vh;
+  overflow-wrap: break-word;
+  font-size: small;
+}
+
+.imgSubmit {
+  margin-right: 2px;
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+.links {
+  width: 300px;
+  margin: 5px;
+}
+
+.post {
+  border: solid 2px #181818;
+  padding: 5px;
+  width: 80vh;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.public {
+  display: block;
+}
+
+.semi {
+  display: block;
+}
+
+.private {
+  display: block;
+}
+
+.mfposts {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.mfsemi {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.mfprivate {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.groupeOfButtons {
+  width: 22.8vh;
+}
+
+.buttonPublic {
+  background: #101010;
+  border-color: #181818;
+  border-style: double;
+  color: #e3f2ee;
+  margin-right: 1%;
+  width: 80px;
+  height: 20px;
+}
+
+.buttonSemi {
+  background: #101010;
+  border-color: #181818;
+  border-style: double;
+  color: #e3f2ee;
+  margin-right: 1%;
+  width: 80px;
+  height: 20px;
+}
+
+.buttonPrivate {
+  background: #101010;
+  border-color: #181818;
+  border-style: double;
+  color: #e3f2ee;
+  width: 80px;
+  height: 20px;
+}
+
+.buttonComment {
+  background: #101010;
+  border-color: #181818;
+  border-style: none;
+  color: #e3f2ee;
+  margin-left: 75%;
+  width: 25%;
+  height: 30px; /* increased height */
+  font-size: 12px;
+  padding: 5px 10px; /* added padding */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.makePost {
+  display: grid;
+}
+
+.postListe {
+  position: absolute;
+  border: solid 2px #181818;
+  left: 40%;
+  width: 20%;
+  top: 55%;
+  text-align: center;
+}
+
+.postDate {
+  text-align: right;
+  font-size: 13px;
+  float: right;
+}
+
+.postUser {
+  text-align: left;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.postTitle {
+  font-size: 20px;
+}
+
+.postContent {
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.yourGroups {
+  display: grid;
+  width: 150px;
+  padding: 5px;
+}
+
+.group {
+  margin-bottom: 1vh;
+  background-color: #101010;
+  border: solid 2px #181818;
+  width: 15vh;
+  height: max-content;
+  text-align: center;
+}
+
+.commenting {
+  border: dotted 1px #181818;
+  padding: 5px;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.commentDate {
+  text-align: right;
+  font-size: 12px;
+  float: right;
+}
+
+.commentUser {
+  text-align: left;
+  font-size: 15px;
+}
+
+.commentTitle {
+  font-size: 15px;
+}
+
+.commentContent {
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.Profile {
+  position: absolute;
+  text-align: center;
+  border: #181818 solid 2px;
+  width: 20%;
+}
+
+.passport {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: -webkit-fill-available;
+  margin: 1vh;
+  margin-top: 0vh;
+}
+
+.docu {
+  display: grid;
+  justify-self: center;
+}
+
+.organiser {
+  display: flex;
+  margin: 1vh;
+  margin-top: 0;
+  justify-items: center;
+}
+
+.folow {
+  border: solid 2px #181818;
+  width: 15%;
+  height: max-content;
+  right: 20%;
+  margin: 1vh;
+  margin-top: 0px;
+  text-align: center;
+  position: absolute;
+  height: max-content;
+}
+
+.notification_user {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  width: 15%;
+  border: solid 2px #181818;
+}
+
+.layouter {
+  display: grid;
+  justify-items: center;
+}
+
+.birth_name {
+  display: flex;
+  justify-content: space-between;
+  width: 16vh;
+}
+
+.list-up {
+  margin: 1px;
+}
+
+.dropdown {
+  margin-left: 2px;
+  border-radius: 2px;
+  border: 0px solid #ccc;
+  margin-left: 2px;
+}
+
+.postContentCreation {
+  width: 90%;
+  max-width: 80vh;
+  height: 10vh;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-top: 0.25vh;
+}
+.titleCreation {
+  height: 15px;
+  width: fit-content;
+  margin-left: 2px;
+  border-radius: 2px;
+  border: 0px solid #ccc;
+}
+
+.postCreationButton {
+  border-radius: 2px;
+  border: 0px;
+  margin-left: 2px;
+}
+
+.groupmaker {
+  display: grid;
+  justify-items: center;
+  width: 50vh;
+  min-height: max-content;
+}
+
+.postti {
+  border: #181818 solid 2px;
+  width: fit-content;
+  height: max-content;
+  min-width: 40vh;
+  min-height: 15vh;
+  margin-bottom: 2vh;
+  display: grid;
+  justify-items: center;
+  margin-right: 0;
+}
+
+.poster {
+  display: flex;
+  justify-items: center;
+  margin-top: 1vh;
+}
+
+.contents {
+  font-size: large;
+  display: grid;
+  justify-items: center;
+}
+
+.gridder {
+  display: grid;
+  justify-items: center;
+  margin: 1vh;
+}
+
+.groupPost {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.groupEvent {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.groupPage {
+  display: grid;
+}
+
+.profileData {
+  margin: 0.25vh;
+}
+
+.chatorganise {
+  display: grid;
+  width: 40%;
+  margin: auto;
+  border: #181818 2px solid;
+}
+
+.user {
+  height: fit-content;
+  margin-left: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+  border-top: #144b56 1px solid;
+}
+
+.imagePoster {
+  display: grid;
+  justify-items: start;
+  margin-bottom: 1vh;
+}
+
+.messages {
+  border: dotted #181818 1px;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  max-width: 98%;
+}
+
+.lineBreak {
+  margin-left: 0.5%;
+}
+
+.autoScroll {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageBox {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+}
+
+.chat {
+  width: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  scroll-behavior: smooth;
+  height: 700px;
+  border: solid #181818 2px;
+}
+
+.shroud {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25vh;
+}
+
+.userList {
+  position: absolute;
+  top: 10vh;
+  left: 5%;
+  border: solid 2px black;
+  width: 15vh;
+  display: grid;
+  justify-content: left;
+  background-color: #101010;
+  overflow: auto;
+}
+
+.postImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.error {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: tomato;
+}
+
+.warning {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: springgreen;
+}
+
+.standards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+  margin-bottom: 1vh;
+  justify-content: space-around;
+}

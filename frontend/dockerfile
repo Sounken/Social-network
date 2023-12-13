@@ -1,0 +1,10 @@
+FROM node:18-alpine
+RUN rm -rf /app && mkdir -p /app
+WORKDIR /app
+COPY . .
+RUN npm install
+# RUN npm run build
+COPY ./start.sh ./start.sh
+RUN chmod +x ./start.sh
+EXPOSE 3000
+CMD ["./start.sh"]
